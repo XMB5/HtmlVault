@@ -37,6 +37,7 @@ var decHtmlP2 = "\";\n" +
     "            var password = document.getElementById('password').value;\n" +
     "            var html = CryptoJS.AES.decrypt(base64Encrypted, password).toString(CryptoJS.enc.Utf8);\n" +
     "            document.write(html);\n" +
+    "            document.dispatchEvent(new Event('DOMContentLoaded'));\n\n" +
     "        } catch (e) {\n" +
     "            console.error(e);\n" +
     "            alert(e);\n" +
