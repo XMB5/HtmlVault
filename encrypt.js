@@ -26,7 +26,7 @@ var decHtmlP1 = "<!DOCTYPE html>\n" +
     "<h3>Decrypt Webpage</h3>\n" +
     "<form action=\"javascript:void(9)\" onsubmit=\"decrypt()\">\n" +
     "    <label for=\"password\">Password: </label>\n" +
-    "    <input type=\"password\" id=\"password\">\n" +
+    "    <input type=\"password\" id=\"password\" autocomplete=\"off\">\n" +
     "    <input type=\"submit\" value=\"Decrypt\">\n" +
     "</form>\n" +
     "<script>\n" +
